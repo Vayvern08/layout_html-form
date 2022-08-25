@@ -1,6 +1,6 @@
 /* styles go here */
-fieldset:not(:first-child) {
-  margin-top: 20px;
+fieldset {
+  margin-bottom: 20px;
 }
 
 .form-field {
@@ -16,15 +16,13 @@ fieldset:not(:first-child) {
   margin-bottom: 0;
 }
 
-.form-button {
-  display: block;
-  margin-top: 10px;
-}
-
 .short {
   max-width: 56px;
 }
 
 .textarea {
+  padding: 0 0 5px 1px;
   resize: none;
+  max-width: 33px;
+  font-family: Arial, Helvetica, sans-serif;
 }

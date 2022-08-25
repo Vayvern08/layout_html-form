@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css" >
   </head>
   <body>
-    <form action="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset>
         <legend>Personal information</legend>
         <label class="form-field">
@@ -111,13 +111,8 @@
             class="textarea"
             name="favorite cars"
             id="favorite_cars"
-            rows="5"
-            cols="2"
-          >
-          BMW
-          Audi
-          Lada
-          
+            rows="4"
+          >BMW Audi Lada
           </textarea>
         </label>
         <label class="form-field">
@@ -147,11 +142,8 @@
           </select>
         </label>
       </fieldset>
-      <label class="form-button">
-        <button>Submit</button>
-      </label>
+      <button type="submit">Submit</button>
     </form>
-
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
