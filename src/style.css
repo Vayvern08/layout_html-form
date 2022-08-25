@@ -1,1 +1,28 @@
 /* styles go here */
+fieldset {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-field:first-of-type {
+  margin-top: 0;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
+}
+
+.short {
+  max-width: 56px;
+}
+
+.textarea {
+  padding: 0 0 5px 1px;
+  resize: none;
+  max-width: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+}
