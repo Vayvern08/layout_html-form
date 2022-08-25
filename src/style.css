@@ -1,1 +1,30 @@
 /* styles go here */
+fieldset:not(:first-child) {
+  margin-top: 20px;
+}
+
+.form-field {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-field:first-of-type {
+  margin-top: 0;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
+}
+
+.form-button {
+  display: block;
+  margin-top: 10px;
+}
+
+.short {
+  max-width: 56px;
+}
+
+.textarea {
+  resize: none;
+}
